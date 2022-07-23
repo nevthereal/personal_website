@@ -1,0 +1,214 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #264653;
+    color: white;
+    overflow-x: hidden;
+}
+
+div{
+    display:flexbox;
+}
+
+h1{
+    font-size: 4rem;
+    color: #E76F51;
+    margin: 2rem 2rem 2rem;
+}
+
+h2{
+    color: #F4A261;
+}
+
+p{
+    color: #E9C46A;
+    font-size: 1rem;
+}
+
+svg{
+    max-width: 80%;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #2a9d8f;
+    transition: all ease-in 0.2s;
+}
+
+img{
+    animation: imgFade 3s ease-in forwards;
+}
+
+.name{
+    font-family: 'Dancing Script', cursive;
+}
+
+.homeBtn{
+    color: #E9C46A;
+    transition: none;
+    font-size: 3rem;
+}
+
+.zoom {
+    padding: 10px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+button{
+    border: none;
+    border-radius: 2.5rem;
+    background-color: #2A9D8F;
+    width: 16rem;
+    height: 9rem;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    margin: 0.5rem;
+    opacity: .9;
+}
+
+button > h2{
+    transition: color ease 0.5s;
+}
+
+button:hover{
+    border-radius: 1rem;
+    background-color: #F4A261;
+    opacity: 1;
+    letter-spacing: 0.1rem;
+}
+
+button:hover > h2{
+    color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: none;
+}
+  
+
+::-webkit-scrollbar-thumb {
+    background: #E76F51;
+    border-radius: 3rem;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #f5532b;
+}
+
+#Rectangle1{
+    animation: recAnim 1s ease-in forwards;
+}
+
+@keyframes recAnim{
+    0% {
+        opacity: 0;
+        transform: translateY(3rem)
+    }
+    90% {
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+#Polygon1{
+    animation: polyAnim 1s ease-in forwards;
+}
+
+@keyframes polyAnim{
+    0% {
+        opacity: 0;
+        transform: translateX(3rem);
+    }
+    90% {
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+
+#css3-alt-brands1{
+    animation: cssAnim 1s ease-in forwards;
+}
+
+@keyframes cssAnim{
+    0% {
+        opacity: 0;
+    }
+    90% {
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#greenRec{
+    animation: recAnim 0.5s ease-in forwards;
+}
+
+@keyframes recAnim{
+    0% {
+        opacity: 0;
+        transform: translateY(3rem)
+    }
+    90% {
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+#orangeRec{
+    animation: polyAnim 0.5s ease-in forwards;
+}
+
+@keyframes polyAnim{
+    0% {
+        opacity: 0;
+        transform: translateX(3rem);
+    }
+    90% {
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+
+#ABOUT{
+    animation: cssAnim 0.5s ease-in forwards;
+}
+
+@keyframes cssAnim{
+    0% {
+        opacity: 0;
+    }
+    90% {
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+    }
+}
